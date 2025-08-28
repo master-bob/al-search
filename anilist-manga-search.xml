@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription
+  xmlns="http://a9.com/-/spec/opensearch/1.1/"
+  xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>AniList Manga Search</ShortName>
+  <Description>Allows one to search Anilist's Mangas</Description>
+  <Developer>https://github.com/master-bob</Developer>
+  <Attribution>Search data from AniList, LLC</Attribution>
+  <AdultContent>true</AdultContent>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image type="image/svg+xml">/img/logo.svg</Image>
+  <Url type="text/html" method="get" template="https://anilist.co/search/manga?sort=SEARCH_MATCH&search={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="anilist-manga-search.xml" />
+</OpenSearchDescription>
