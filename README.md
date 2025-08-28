@@ -19,6 +19,7 @@ To work on the project:
 - Copy the `manifest_chrome.json` or `manifest_firefox.json` file to `manifest.json` (depending on the browser you're on).
 - Copy the `env.example` file to `env.js` and fill the `anilist.client_id` property with your client ID.
 - Load the extension in your browser.
+  - Firefox: Use `about:debugging` to Temporarily load the add-on by selecting the `manifest.json`
 
 > Note: This project doesn't need any build process.
 
