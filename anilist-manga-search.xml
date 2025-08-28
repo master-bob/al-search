@@ -10,5 +10,5 @@
   <InputEncoding>UTF-8</InputEncoding>
   <Attribution>Search data from AniList, LLC</Attribution>
   <AdultContent>true</AdultContent>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://master-bob.github.io/al-search/anilist-manga-search.xml" />
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://yellowfish085.github.io/al-search/anilist-manga-search.xml" />
 </OpenSearchDescription>
